@@ -1,0 +1,18 @@
+{
+  "name": "slidenow-ui-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "LiveScript": "^1.3.1",
+    "glue": "^2.0.0",
+    "gulp": "^3.8.10",
+    "gulp-sprite-glue": "^0.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Casear Chu <casear.chu@chuto.tw> (http://casear.chuto.tw/)",
+  "license": "ISC"
+}
