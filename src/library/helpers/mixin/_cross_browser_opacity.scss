@@ -1,0 +1,26 @@
+// -------------------------------------
+//	http://zerosixthree.se/8-sass-mixins-you-must-have-in-your-toolbox/
+//
+//
+//	Cross browser opacity
+//
+//
+//	This mixin ensures cross browser opacity all the way down to Internet Explorer 5. 
+//	Though if you have to optomize for IE5, you have a lot bigger problems than opacity, 
+//	godspeed my friend.
+//
+//
+//	Usage:
+//
+//	.faded-text {
+//		@include opacity-ie(0.8);
+//	}
+//		
+// -------------------------------------
+
+
+@mixin opacity-ie($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
