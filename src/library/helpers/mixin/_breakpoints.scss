@@ -24,7 +24,23 @@
 //	}
 //
 // -------------------------------------
+@mixin bp-massive {
+  @media only screen and (max-width: 160em) {
+    @content;
+  }
+}
 
+@mixin bp-huge {
+  @media only screen and (max-width: 120em) {
+    @content;
+  }
+}
+
+@mixin bp-big {
+  @media only screen and (max-width: 90em) {
+    @content;
+  }
+}
 
 @mixin bp-large {
   @media only screen and (max-width: 60em) {
