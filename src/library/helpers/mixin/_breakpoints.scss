@@ -24,38 +24,80 @@
 //	}
 //
 // -------------------------------------
-@mixin bp-massive {
+
+// width 2560px
+@mixin bp-2560 {
   @media only screen and (max-width: 160em) {
     @content;
   }
 }
 
-@mixin bp-huge {
+// width 1920px
+@mixin bp-1920 {
   @media only screen and (max-width: 120em) {
     @content;
   }
 }
 
-@mixin bp-big {
+// width 1440px
+@mixin bp-1440 {
   @media only screen and (max-width: 90em) {
     @content;
   }
 }
 
-@mixin bp-large {
+// width 1280px
+@mixin bp-1280 {
+  @media only screen and (max-width: 80em) {
+    @content;
+  }
+}
+
+// width 1024px
+@mixin bp-1024 {
+  @media only screen and (max-width: 64em) {
+    @content;
+  }
+}
+
+// width 960px
+@mixin bp-960 {
   @media only screen and (max-width: 60em) {
     @content;
   }
 }
 
-@mixin bp-medium {
+// width 800px
+@mixin bp-800 {
+  @media only screen and (max-width: 50em) {
+    @content;
+  }
+}
+
+// width 720px
+@mixin bp-720 {
+  @media only screen and (max-width: 45em) {
+    @content;
+  }
+}
+
+// width 640px
+@mixin bp-640 {
   @media only screen and (max-width: 40em) {
     @content;
   }
 }
 
-@mixin bp-small {
+// width 480px
+@mixin bp-480 {
   @media only screen and (max-width: 30em) {
+    @content;
+  }
+}
+
+// width 320px
+@mixin bp-320 {
+  @media only screen and (max-width: 20em) {
     @content;
   }
 }

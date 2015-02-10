@@ -1,0 +1,9 @@
+%user-select-none {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;   
+    //No support for these yet, use at own risk
+    -o-user-select: none;
+    user-select: none;
+}
+    

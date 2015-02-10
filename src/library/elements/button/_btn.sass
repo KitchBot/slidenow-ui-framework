@@ -5,6 +5,7 @@
 // -------------------------------------
 
 
+// ----- base ----- //
 .e-btn
 	cursor: pointer
 	display: inline-block
@@ -27,7 +28,12 @@
 			color: rgba(0,0,0,.4)
 			background: #dcddde
 			cursor: default
+
+	&.is-fluid
+		width: 100%
+		box-sizing: border-box
 	
+	// ----- size ----- //
 	&.sz-xxxs
 		-webkit-text-size-adjust: none
 		font-size: $fz9
@@ -61,7 +67,8 @@
 
 
 
-.e-btn-icon > .icon
+// ----- icon ----- //
+.icon
 	display: block
 
 .e-btn-icon
@@ -79,10 +86,15 @@
 	&.is-sel
 		cursor: default
 
+	&.is-fluid
+		width: 100%
+		box-sizing: border-box
+
 	&.bgc-trp
 		background: transparent
 		cursor: default
-
+	
+	// ----- size ----- //
 	&.sz-xxxs
 		width: 38px
 		height: 38px
@@ -96,7 +108,7 @@
 	&.sz-xs
 		width: 38px
 		height: 38px
-		padding: 7px
+		padding: 6px
 
 	&.sz-s
 		width: 40px
@@ -125,6 +137,70 @@
 	&.sz-xxxl
 		width: 144px
 		height: 144px
+
+
+
+
+
+// ----- icon text vertical ----- //
+.e-btn-icon-text-v
+	cursor: pointer
+	box-sizing: border-box
+	background: #f67373
+	display: inline-block
+	background-color: #707070
+	color: #fff
+	.icon
+		margin: 0 auto 5px
+
+	&.bgc-trp
+		background: transparent
+
+	&.is-sel
+		cursor: default
+
+	&.sz-s
+		padding: 7px
+		//icon size 26px			
+
+	&.sz-m
+		padding: 9px
+		//icon size 32px
+
+
+
+
+
+// ----- icon text horizonta ----- //
+.e-btn-icon-text-h
+	box-sizing: border-box
+	cursor: pointer
+	display: inline-block
+	background-color: #707070
+	color: #fff
+	
+	.icon
+		float: left
+	
+	&.bgc-trp
+		background: transparent
+	
+	&.is-fluid
+		width: 100%
+
+	&.is-sel
+		cursor: default
+
+
+	&.sz-s
+		padding: 7px
+		.text
+			line-height: 26px
+			margin-left: 6px
+		
+
+
+
 
 
 

@@ -17,13 +17,43 @@
 
 .spinner {
   margin: 100px auto;
-  width: 40px;
-  height: 40px;
+  width: 38px;
+  height: 38px;
   position: relative;
   text-align: center;
   
   -webkit-animation: rotate 2.0s infinite linear;
   animation: rotate 2.0s infinite linear;
+}
+
+.spinner.sz-xxs {
+  width: 24px;
+  height: 24px;
+}
+
+.spinner.sz-xs {
+  width: 32px;
+  height: 32px;
+}
+
+.spinner.sz-m {
+  width: 38px;
+  height: 38px;
+}
+
+.spinner.sz-l {
+  width: 60px;
+  height: 60px;
+}
+
+.spinner.sz-xl {
+  width: 72px;
+  height: 72px;
+}
+
+.spinner.sz-xxl {
+  width: 80px;
+  height: 80px;
 }
 
 .dot1, .dot2 {
@@ -32,7 +62,7 @@
   display: inline-block;
   position: absolute;
   top: 0;
-  background-color: #333;
+  background-color: #707070;
   border-radius: 100%;
   
   -webkit-animation: bounce 2.0s infinite ease-in-out;
@@ -63,3 +93,4 @@
     -webkit-transform: scale(1.0);
   }
 }
+
