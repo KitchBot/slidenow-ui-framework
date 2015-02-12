@@ -1,0 +1,52 @@
+// -------------------------------------
+//
+//  input
+//
+// -------------------------------------
+
+
+// ----- base ----- //
+
+//WebKit browsers
+*::-webkit-input-placeholder
+    color: #808080
+    -webkit-font-smoothing: antialiased
+
+//Mozilla Firefox 4 to 18
+*:-moz-placeholder
+    color: #808080
+    -webkit-font-smoothing: antialiased
+
+//Mozilla Firefox 19+
+*::-moz-placeholder
+    color: #808080
+    -webkit-font-smoothing: antialiased
+
+//Internet Explorer 10+
+*:-ms-input-placeholder
+    color: #808080
+    -webkit-font-smoothing: antialiased
+
+
+
+
+
+.input, 
+.textarea
+    color: #555
+    font-size: $fz20
+    background: #fff
+    border: 2px solid #555
+    padding: 0.4em 0.5em
+    margin-bottom: 1em
+    width: 100%
+    color: #808080
+
+    &:focus
+        color: #000
+        outline: none
+        outline: 0
+        border-color: #000
+
+    &.is-warn
+        border: 2px solid #f00

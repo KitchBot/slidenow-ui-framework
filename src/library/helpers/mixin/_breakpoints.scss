@@ -25,6 +25,9 @@
 //
 // -------------------------------------
 
+
+// ----- width ----- //
+
 // width 2560px
 @mixin bp-2560 {
   @media only screen and (max-width: 160em) {
@@ -108,3 +111,86 @@
     @content;
   }
 }
+
+
+
+
+// ----- height ----- //
+
+// height 2560px
+@mixin bp-2560-h {
+  @media only screen and (max-height: 160em) {
+    @content;
+  }
+}
+
+// height 1920px
+@mixin bp-1920-h {
+  @media only screen and (max-height: 120em) {
+    @content;
+  }
+}
+
+// height 1440px
+@mixin bp-1440-h {
+  @media only screen and (max-height: 90em) {
+    @content;
+  }
+}
+
+// height 1280px
+@mixin bp-1280-h {
+  @media only screen and (max-height: 80em) {
+    @content;
+  }
+}
+
+// height 1024px
+@mixin bp-1024-h {
+  @media only screen and (max-height: 64em) {
+    @content;
+  }
+}
+
+// height 800px
+@mixin bp-800-h {
+  @media only screen and (max-height: 50em) {
+    @content;
+  }
+}
+
+// height 720px
+@mixin bp-720-h {
+  @media only screen and (max-height: 45em) {
+    @content;
+  }
+}
+
+// height 640px
+@mixin bp-640-h {
+  @media only screen and (max-height: 40em) {
+    @content;
+  }
+}
+
+// height 620px
+@mixin bp-620-h {
+  @media only screen and (max-height: 38.75em) {
+    @content;
+  }
+}
+
+// height 480px
+@mixin bp-480-h {
+  @media only screen and (max-height: 30em) {
+    @content;
+  }
+}
+
+// height 320px
+@mixin bp-320-h {
+  @media only screen and (max-height: 20em) {
+    @content;
+  }
+}
+
