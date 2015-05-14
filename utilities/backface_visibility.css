@@ -1,0 +1,15 @@
+/* -------------------------------------
+  https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility
+
+
+  backface-visibility
+
+ -------------------------------------*/
+
+.u-bfv-h {
+  backface-visibility: hidden;
+}
+
+.u-bfv-v {
+  backface-visibility: visible;
+}

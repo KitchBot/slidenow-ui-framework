@@ -1,0 +1,37 @@
+/*-------------------------------------
+ https://developer.mozilla.org/en-US/docs/Web/CSS/max-width
+
+ https://developer.mozilla.org/en-US/docs/Web/CSS/max-height
+
+
+ width / height
+
+-------------------------------------*/
+
+/*----- width ----- */
+.u-w-a {
+  width: auto;
+}
+
+.u-w-100p {
+  width: 100%;
+}
+
+/*----- height  ----- */
+.u-h-a {
+  height: auto;
+}
+
+.u-h-100p {
+  height: 100%;
+}
+
+/*----- max width  ----- */
+.u-maw-n {
+  max-width: none;
+}
+
+/*----- max height  ----- */
+.u-mah-n {
+  max-height: none;
+}

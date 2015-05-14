@@ -1,0 +1,57 @@
+/*-------------------------------------
+ https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius
+
+
+ border radius
+
+-------------------------------------
+*/
+$bdtlrs: 11px;
+
+.u-bdtlrs {
+  border-top-left-radius: $bdtlrs;
+}
+
+.u-bdtlrs-50p {
+  border-top-left-radius: 50%;
+}
+
+.u-bdtlrs-0 {
+  border-top-left-radius: 0;
+}
+
+.u-bdtlrs-2 {
+  border-top-left-radius: 2px;
+}
+
+.u-bdtlrs-4 {
+  border-top-left-radius: 4px;
+}
+
+.u-bdtlrs-6 {
+  border-top-left-radius: 6px;
+}
+
+.u-bdtlrs-8 {
+  border-top-left-radius: 8px;
+}
+
+.u-bdtlrs-10 {
+  border-top-left-radius: 10px;
+}
+
+.u-bdtlrs-12 {
+  border-top-left-radius: 12px;
+}
+
+.u-bdtlrs-16 {
+  border-top-left-radius: 16px;
+}
+
+.u-bdtlrs-20 {
+  border-top-left-radius: 20px;
+}
+
+.u-bdtlrs-24 {
+  border-top-left-radius: 24px;
+}

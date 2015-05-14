@@ -1,0 +1,17 @@
+/*-------------------------------------
+ https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+
+
+ box sizing
+
+-------------------------------------
+*/
+
+/*----- box sizing  ----- */
+.u-bxz-cb {   
+    box-sizing: content-box
+}
+
+.u-bxz-bb {
+    box-sizing: border-box
+}

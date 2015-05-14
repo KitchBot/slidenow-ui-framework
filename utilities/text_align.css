@@ -1,0 +1,24 @@
+/*-------------------------------------
+ https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
+
+
+ text align
+
+-------------------------------------*/
+
+/* ----- text-align ----- */
+.u-ta-l {
+  text-align: left;
+}
+
+.u-ta-c {
+  text-align: center;
+}
+
+.u-ta-r {
+  text-align: right;
+}
+
+.u-ta-j {
+  text-align: justified;
+}

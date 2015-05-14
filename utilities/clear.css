@@ -1,0 +1,26 @@
+/*-------------------------------------
+ https://developer.mozilla.org/en-US/docs/Web/CSS/clear
+
+
+ clear
+
+-------------------------------------*/
+
+
+.u-cl-n {
+  clear: none;
+}
+
+.u-cl-l {
+  clear: left;
+}
+
+.u-cl-r {
+  clear: right;
+}
+
+.u-cl-b {
+  clear: both;
+}
+
+    

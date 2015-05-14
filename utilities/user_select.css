@@ -1,0 +1,27 @@
+/*-------------------------------------
+ https://developer.mozilla.org/en-US/docs/Web/CSS/user-select
+
+
+ user-select
+
+-------------------------------------*/
+
+.u-us-n {
+  text-decoration: none;
+  user-select: none;
+}
+
+.u-us-t {
+  text-decoration: text;
+  user-select: text;
+}
+
+.u-us-a {
+  text-decoration: all;
+  user-select: all;
+}
+
+.u-us-e {
+  text-decoration: element;
+  user-select: element;
+}

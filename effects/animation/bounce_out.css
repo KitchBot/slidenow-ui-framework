@@ -1,0 +1,43 @@
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  animation-duration: 2s;
+}
+@-webkit-keyframes anim-bounce-out {
+  20% {   
+    transform: scale3d(.9, .9, .9);
+  }
+  50%, 55% {
+    opacity: 1; 
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+}
+@keyframes anim-bounce-out {
+  20% {
+    transform: scale3d(.9, .9, .9);
+  }
+  50%, 55% {
+    opacity: 1;
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+}
+.anim-bounce-out {
+  animation-name: anim-bounce-out;
+  animation-duration: .75s;
+}
+

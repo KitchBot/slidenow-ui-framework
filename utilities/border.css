@@ -1,0 +1,79 @@
+/*-------------------------------------
+ https://developer.mozilla.org/en-US/docs/Web/CSS/border
+
+
+ border
+
+-------------------------------------*/
+
+/* ----- border ----- */
+.u-bd-n {
+  border: none;
+}
+
+/* ----- border-collapse ----- */
+.u-bdcl-c {
+  border-collapse: collapse;
+}
+
+.u-bdcl-s {
+  border-collapse: separate;
+}
+
+/* ----- border-color ----- */
+.u-bdc-t {
+  border-collapse: transparent;
+}
+
+/* ----- border-style ----- */
+.u-bds-n {
+  border-style: none;
+}
+
+.u-bds-h {
+  border-style: hidden;
+}
+
+.u-bds-dt {
+  border-style: dotted;
+}
+
+.u-bds-ds {
+  border-style: dashed;
+}
+
+.u-bds-s {
+  border-style: solid;
+}
+
+.u-bds-db {
+  border-style: double;
+}
+
+.u-bds-dtds {
+  border-style: dot-dash;
+}
+
+.u-bds-dtdtds {
+  border-style: dot-dot-dash;
+}
+
+.u-bds-w {
+  border-style: wave;
+}
+
+.u-bds-g {
+  border-style: groove;
+}
+
+.u-bds-r {
+  border-style: ridge;
+}
+
+.u-bds-i {
+  border-style: inset;
+}
+
+.u-bds-o {
+  border-style: outset;
+}

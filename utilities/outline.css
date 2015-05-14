@@ -1,0 +1,11 @@
+/*-------------------------------------
+ https://developer.mozilla.org/en-US/docs/Web/CSS/outline
+
+
+ outline
+
+-------------------------------------*/
+
+.u-ol-n {
+  outline: none;
+}

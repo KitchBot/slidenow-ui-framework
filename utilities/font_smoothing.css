@@ -1,0 +1,22 @@
+/*-------------------------------------
+ http://files.christophzillgens.com/webkit-font-smoothing.html
+
+
+ webkit-font-smoothing
+
+-------------------------------------*/
+
+.wfsm-n {
+  -webkit-font-smoothing: none;
+     -moz-font-smoothing: none;
+}
+
+.wfsm-a {
+  -webkit-font-smoothing: antialiased;
+     -moz-font-smoothing: antialiased;
+}
+
+.wfsm-sa {
+  -webkit-font-smoothing: subpixel-antialiased;
+     -moz-font-smoothing: subpixel-antialiased;
+}

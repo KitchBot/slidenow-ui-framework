@@ -1,0 +1,12 @@
+/*-------------------------------------
+
+ shape oval
+
+-------------------------------------
+*/
+.shape.oval {
+  width: 200px;
+  height: 100px;
+  background: red;
+  border-radius: 100px / 50%;
+}

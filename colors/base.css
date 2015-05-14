@@ -1,0 +1,26 @@
+/*-------------------------------------
+
+ Base Colors
+
+-------------------------------------
+*/
+@define-mixin color-theme $name, $color {
+    .c-t-$(name) { color: $color;}
+    .c-bg-$(name) { backgroun-color: $color;}
+    .c-bd-$(name) { border-color: $color; }
+}
+@mixin color-theme black ,#000000 {}
+@mixin color-theme white ,#FFFFFF {}
+@mixin color-theme gray  ,#808080 {}
+@mixin color-theme red   ,#ff0000 {}
+@mixin color-theme orange,#ffa500 {}
+@mixin color-theme yellow,#ffff00 {}
+@mixin color-theme green ,#00FF00 {}
+@mixin color-theme cyan  ,#00FFFF {}
+@mixin color-theme blue  ,#0000FF {}
+@mixin color-theme indigo,#4B0082 {}
+@mixin color-theme purple,#800080 {}
+
+
+
+

@@ -1,0 +1,9 @@
+/*-------------------------------------
+
+ blend overlay
+
+-------------------------------------*/
+
+.blend.overlay {
+  background-blend-mode: overlay;
+}

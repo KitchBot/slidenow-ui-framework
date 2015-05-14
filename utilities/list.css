@@ -1,0 +1,66 @@
+/*-------------------------------------
+ https://developer.mozilla.org/en-US/docs/Web/CSS/list-style
+
+ https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position
+
+ https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type
+
+
+ list
+
+-------------------------------------*/
+
+/* ----- list-style ----- */
+.u-lis-n {
+  list-style: none;
+}
+
+/* ----- list-style-position ----- */
+.u-lisp-i {
+  list-style-position: inside;
+}
+
+.u-lisp-o {
+  list-style-position: outside;
+}
+
+/* ----- list-style-type ----- */
+.u-list-n {
+  list-style-type: none;
+}
+
+.u-list-d {
+  list-style-type: disc;
+}
+
+.u-list-c {
+  list-style-type: circle;
+}
+
+.u-list-s {
+  list-style-type: square;
+}
+
+.u-list-dc {
+  list-style-type: decimal;
+}
+
+.u-list-dclz {
+  list-style-type: decimal-leading-zero;
+}
+
+.u-list-lr {
+  list-style-type: lower-roman;
+}
+
+.u-list-ur {
+  list-style-type: upper-roman;
+}
+
+.u-list-la {
+  list-style-type: lower-alpha;
+}
+
+.u-list-ua {
+  list-style-type: upper-alpha;
+}

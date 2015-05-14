@@ -1,0 +1,9 @@
+/*-------------------------------------
+
+ blend screen
+
+-------------------------------------*/
+
+.blend.screen {
+  background-blend-mode: screen;
+}

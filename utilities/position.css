@@ -1,0 +1,33 @@
+/*-------------------------------------
+ https://developer.mozilla.org/en-US/docs/Web/CSS/position
+
+
+ position
+
+-------------------------------------*/
+
+
+.u-pos-s {
+  position: static;
+}
+
+.u-pos-a {
+  position: absolute;
+}
+
+.u-pos-r {
+  position: relative;
+}
+
+.u-pos-f {
+  position: fixed;
+}
+
+.u-pos-c {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}

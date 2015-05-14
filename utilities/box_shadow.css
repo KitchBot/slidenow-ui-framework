@@ -1,0 +1,11 @@
+/*-------------------------------------
+ https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+
+
+ box shadow
+
+-------------------------------------
+*/
+.u-bxsh-n {
+  box-shadow: none;
+}

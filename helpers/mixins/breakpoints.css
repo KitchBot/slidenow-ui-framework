@@ -1,0 +1,232 @@
+/*-------------------------------------
+ http://zerosixthree.se/8-sass-mixins-you-must-have-in-your-toolbox/
+
+
+ Breakpoints
+
+ When Sass 3.2 was released some time ago, they made it possible to define names to our 
+ media queries, which makes the usage of them a lot cleaner. Instead of calling them 
+ @media (min-width: 600px) we can give them more semantic names like “breakpoint-large” 
+ or “breakpoint-a-really-large-computer-machine”.
+
+
+ Usage:
+
+ .sidebar {
+     width: 60%;
+     float: left;
+     margin: 0 2% 0 0;
+     @include bp-small {
+         width: 100%;
+         float: none;
+         margin: 0;
+     }
+ }
+
+-------------------------------------*/
+
+
+/* ----- width ----- */
+
+// width 2560px
+@define-mixin bp-2560 {
+  @media only screen and (max-width: 160em) {
+    @mixin-content;;
+  }
+}
+
+/* width 1920px */
+@define-mixin bp-1920 {
+  @media only screen and (max-width: 120em) {
+    @mixin-content;;
+  }
+}
+
+ /*width 1440px*/
+@define-mixin bp-1440 {
+  @media only screen and (max-width: 90em) {
+    @mixin-content;
+  }
+}
+
+ /*width 1280px*/
+@define-mixin bp-1280 {
+  @media only screen and (max-width: 80em) {
+    @mixin-content;
+  }
+}
+
+ /*width 1024px*/
+@define-mixin bp-1024 {
+  @media only screen and (max-width: 64em) {
+    @mixin-content;
+  }
+}
+
+ /*width 960px*/
+@define-mixin bp-960 {
+  @media only screen and (max-width: 60em) {
+    @mixin-content;
+  }
+}
+
+ /*width 800px*/
+@define-mixin bp-800 {
+  @media only screen and (max-width: 50em) {
+    @mixin-content;
+  }
+}
+
+ /*width 720px*/
+@define-mixin bp-720 {
+  @media only screen and (max-width: 45em) {
+    @mixin-content;
+  }
+}
+
+ /*width 640px*/
+@define-mixin bp-640 {
+  @media only screen and (max-width: 40em) {
+    @mixin-content;
+  }
+}
+
+ /*width 620px*/
+@define-mixin bp-620 {
+  @media only screen and (max-width: 38.75em) {
+    @mixin-content;
+  }
+}
+
+ /*width 600px*/
+@define-mixin bp-600 {
+  @media only screen and (max-width: 37.5em) {
+    @mixin-content;
+  }
+}
+
+ /*width 560px*/
+@define-mixin bp-580 {
+  @media only screen and (max-width: 36.25em) {
+    @mixin-content;
+  }
+}
+
+ /*width 560px*/
+@define-mixin bp-560 {
+  @media only screen and (max-width: 35em) {
+    @mixin-content;
+  }
+}
+
+ /*width 520px*/
+@define-mixin bp-520 {
+  @media only screen and (max-width: 32.5em) {
+    @mixin-content;
+  }
+}
+
+ /*width 480px*/
+@define-mixin bp-480 {
+  @media only screen and (max-width: 30em) {
+    @mixin-content;
+  }
+}
+
+ /*width 460px*/
+@define-mixin bp-460 {
+  @media only screen and (max-width: 28.75em) {
+    @mixin-content;
+  }
+}
+
+
+ /*width 320px*/
+@define-mixin bp-320 {
+  @media only screen and (max-width: 20em) {
+    @mixin-content;
+  }
+}
+
+
+
+
+ /*----- height ----- */
+
+ /*height 2560px*/
+@define-mixin bp-2560-h {
+  @media only screen and (max-height: 160em) {
+    @mixin-content;
+  }
+}
+
+ /*height 1920px*/
+@define-mixin bp-1920-h {
+  @media only screen and (max-height: 120em) {
+    @mixin-content;
+  }
+}
+
+ /*height 1440px*/
+@define-mixin bp-1440-h {
+  @media only screen and (max-height: 90em) {
+    @mixin-content;
+  }
+}
+
+ /*height 1280px*/
+@define-mixin bp-1280-h {
+  @media only screen and (max-height: 80em) {
+    @mixin-content;
+  }
+}
+
+ /*height 1024px*/
+@define-mixin bp-1024-h {
+  @media only screen and (max-height: 64em) {
+    @mixin-content;
+  }
+}
+
+ /*height 800px*/
+@define-mixin bp-800-h {
+  @media only screen and (max-height: 50em) {
+    @mixin-content;
+  }
+}
+
+ /*height 720px*/
+@define-mixin bp-720-h {
+  @media only screen and (max-height: 45em) {
+    @mixin-content;
+  }
+}
+
+// height 640px
+@define-mixin bp-640-h {
+  @media only screen and (max-height: 40em) {
+    @mixin-content;
+  }
+}
+
+ /*height 620px*/
+@define-mixin bp-620-h {
+  @media only screen and (max-height: 38.75em) {
+    @mixin-content;
+  }
+}
+
+ /*height 480px*/
+@define-mixin bp-480-h {
+  @media only screen and (max-height: 30em) {
+    @mixin-content;
+  }
+}
+
+ /*height 320px*/
+@define-mixin bp-320-h {
+  @media only screen and (max-height: 20em) {
+    @mixin-content;
+  }
+}
+

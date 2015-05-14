@@ -1,0 +1,27 @@
+@import "../../fondations/variables/font_size.css";
+
+*::placeholder {
+    color: #c7b396;
+    -webkit-font-smoothing: antialiased;
+       -moz-font-smoothing: antialiased;
+}
+
+.e-input,
+.e-textarea {
+  color: #555555;
+  font-size: $fz20;
+  background: white;
+  border: 2px solid #555555;
+  padding: 8px 10px;
+  margin-bottom: 16px;
+  width: 100%;
+  &:focus {
+    color: black;
+    outline: none;
+    outline: 0;
+    border-color: black;
+  }
+  &.is-warn {
+    border: 2px solid red;
+  }
+}

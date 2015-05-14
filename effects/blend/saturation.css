@@ -1,0 +1,9 @@
+/*-------------------------------------
+
+ blend saturation
+
+-------------------------------------*/
+
+.blend.saturation {
+  background-blend-mode: saturation;
+}
