@@ -37,32 +37,32 @@
   /* ----- size ----- */
   &.sz-xxxs {
     -webkit-text-size-adjust: none;
-    font-size: $fz9;
+    font-size: var(--fz9);
   }
   &.sz-xxs {
     -webkit-text-size-adjust: none;
-    font-size: $fz10;
+    font-size: var(--fz10);
   }
   &.sz-xs {
-    font-size: $fz12;
+    font-size: var(--fz12);
   }
   &.sz-s {
-    font-size: $fz14;
+    font-size: var(--fz14);
   }
   &.sz-m {
-    font-size: $fz16;
+    font-size: var(--fz16);
   }
   &.sz-l {
-    font-size: $fz18;
+    font-size: var(--fz18);
   }
   &.sz-xl {
-    font-size: $fz20;
+    font-size: var(--fz20);
   }
   &.sz-xxl {
-    font-size: $fz24;
+    font-size: var(--fz24);
   }
   &.sz-xxxl {
-    font-size: $fz28;
+    font-size: var(--fz28);
   }
 }
 
