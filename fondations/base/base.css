@@ -14,7 +14,6 @@ html {
 body {
   width: 100%;
   height: 100%;
-  backface-visibility: initial;
 }
 
 /* font-size: 87.5% // 字體設定如有用百分比時 87.5% = 14px */
